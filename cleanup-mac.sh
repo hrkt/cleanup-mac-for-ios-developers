@@ -1,4 +1,4 @@
-#!/bin/bash -x 
+#!/bin/bash
 # 
 
 function cleanUpDerivedData() {
@@ -17,7 +17,7 @@ function cleanUpCachesInLibrary() {
 }
 
 # for iOS Dev
-cleanupDerivedData
+cleanUpDerivedData
 cleanUpArchiveData
 
 # General purpose
