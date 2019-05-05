@@ -3,17 +3,17 @@
 
 function cleanUpDerivedData() {
     echo "clean up derived data"
-    sudo rm -rf ~/Library/Developer/Xcode/DerivedData
+    rm -rf ~/Library/Developer/Xcode/DerivedData
 }
 
 function cleanUpArchiveData() {
     echo "clean up archive data"
-    sudo rm -rf ~/Library/Developer/Xcode/Archives
+    rm -rf ~/Library/Developer/Xcode/Archives
 }
 
 function cleanUpCachesInLibrary() {
     echo "clean up caches in library"
-    sudo rm -rf ~/Library/Caches
+    rm -rf ~/Library/Caches
 }
 
 # for iOS Dev
